@@ -6,10 +6,13 @@ display: flex;
 .alert-info{
     background-color: lightskyblue;
     border: solid black 1px;
-    width: 100%;
+    width: calc(100% - 2px);
     height: 3em;
     text-align: center;
     line-height: 3em;
+    text-decoration: none;
+}
+.alert-info > a {
     text-decoration: none;
 }
 .nav-links{
@@ -21,7 +24,6 @@ nav {
 }
 li{
     background-color: gray;
-    width: 376px;
     height: 3em;
     text-align: center;
     line-height: 3em;
@@ -29,6 +31,9 @@ li{
 }
 ul{
     padding-inline-start: unset;
+}
+footer {
+    align-self: flex-start;
 }
 
 /* added spacing for nav links
