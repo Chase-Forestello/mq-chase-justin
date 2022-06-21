@@ -33,9 +33,16 @@ ul{
     padding-inline-start: unset;
 }
 footer {
-    align-self: flex-start;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
-
+#social-media-links {
+    background-image: url("share-from-square-solid.svg");
+    width: 3.4em;
+    height: 1em;
+}
 /* added spacing for nav links
     refactored width styling for nav links
     removed inline start padding to align nav links
