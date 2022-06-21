@@ -16,15 +16,24 @@ display: flex;
     width: 100%;
     list-style-type: none;
 }
+nav {
+    width: 100%;
+}
 li{
     background-color: gray;
     width: 376px;
     height: 3em;
     text-align: center;
     line-height: 3em;
-
+    margin: inherit;
 }
 ul{
-    width: 5em;
-
+    padding-inline-start: unset;
 }
+
+/* added spacing for nav links
+    refactored width styling for nav links
+    removed inline start padding to align nav links
+    with alert-info. Tried messing with overall document size to prevent scrolling.
+    Assuming it lets you scroll because one of the box models is very wide or something
+    but is annoying because makes centering difficult.*/
